@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test caroussel</title>
+    <script src="./script.js" defer></script>
+    <script src="./bootstrap.js" defer></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bod">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card" style="width: 16rem">
+            <div class="card-body">
+              <h5 class="card-title" >USER 1</h5>
+              <!--<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-boombox" viewBox="0 0 16 16">
+                <path d="M2.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm2 0a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm7.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm1.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm-7-1a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3Zm5.5 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"/>
+                <path d="M11.5 13a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Zm0-1a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3ZM5 10.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"/>
+                <path d="M7 10.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm-1 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z"/>
+                <path d="M14 0a.5.5 0 0 1 .5.5V2h.5a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h12.5V.5A.5.5 0 0 1 14 0ZM1 3v3h14V3H1Zm14 4H1v7h14V7Z"/>
+              </svg>-->
+              <p class="card-text">
+                  <div id="last_name0"></div>
+                  <div id="name0"></div>
+                  <div id="email0"></div>
+                  <div id="num0"></div>
+                  <div id="avatar0"></div>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" style="width: 16rem">
+            <div class="card-body">
+              <h5 class="card-title">USER 2</h5>
+              <p class="card-text">
+                  <div id="last_name1"></div>
+                  <div id="name1"></div>
+                  <div id="email1"></div>
+                  <div id="num1"></div>
+                  <div id="avatar1"></div>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" style="width: 16rem">
+            <div class="card-body">
+              <h5 class="card-title">USER 3</h5>
+              <p class="card-text">
+                  <div id="last_name2"></div>
+                  <div id="name2"></div>
+                  <div id="email2"></div>
+                  <div id="num2"></div>
+                  <div id="avatar2"></div>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" style="width: 16rem">
+            <div class="card-body">
+              <h5 class="card-title">USER 4</h5>
+              <p class="card-text">
+                  <div id="last_name3"></div>
+                  <div id="name3"></div>
+                  <div id="email3"></div>
+                  <div id="num3"></div>
+                  <div id="avatar3"></div>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" style="width: 16rem">
+            <div class="card-body">
+              <h5 class="card-title">USER 5</h5>
+              <p class="card-text">
+                  <div id="last_name4"></div>
+                  <div id="name4"></div>
+                  <div id="email4"></div>
+                  <div id="num4"></div>
+                  <div id="avatar4"></div>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" style="width: 16rem">
+            <div class="card-body">
+              <h5 class="card-title">USER 6</h5>
+              <p class="card-text">
+                  <div id="last_name5"></div>
+                  <div id="name5"></div>
+                  <div id="email5"></div>
+                  <div id="num5"></div>
+                  <div id="avatar5"></div>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Précédent</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Suivant</span>
+      </a>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 d-flex justify-content-center">
+    <div>
+          <img src="OXyB.gif" alt="Votre GIF" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-md-2 d-flex justify-content-center">
+       <div>
+        <img src="OXyB.gif" alt="Votre GIF" class="img-fluid">
+      </div>
+      </div>
+      <div class="col-md-2 d-flex justify-content-center">
+        <div>
+         <img src="OXyB.gif" alt="Votre GIF" class="img-fluid">
+       </div>
+       </div>
+       <div class="col-md-2 d-flex justify-content-center">
+        <div>
+         <img src="OXyB.gif" alt="Votre GIF" class="img-fluid">
+       </div>
+       </div>
+       <div class="col-md-2 d-flex justify-content-center">
+        <div>
+         <img src="OXyB.gif" alt="Votre GIF" class="img-fluid">
+       </div>
+       </div>
+       <div class="col-md-2 d-flex justify-content-center">
+        <div>
+         <img src="OXyB.gif" alt="Votre GIF" class="img-fluid">
+       </div>
+       </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 d-flex justify-content-center">
+        <audio id="myAudio" controls>
+          <source src="wee.mp3" type="audio/mpeg">
+          Votre navigateur ne prend pas en charge l'élément audio.
+          <a href="wee.mp3" download>Télécharger l'audio</a>
+        </audio>
+        <button type="button" class="btn btn-info" onclick="toggleAudio()">Play</button>
+      </div>
+    </div>
+  </div>
+  <script>
+      var audio = document.getElementById("myAudio");
+  
+      function toggleAudio() {
+        if (audio.paused) {
+          audio.play();
+        } else {
+          audio.pause();
+        }
+      }
+    </script>
+    </body>
+  </html>

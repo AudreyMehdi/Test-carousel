@@ -1,0 +1,33 @@
+.card {
+    background-color: rgba(220, 26, 110, 0.625);
+    align-items: center;
+    margin: 0 auto;
+}
+
+#myCarousel {
+    background-color: rgb(206, 30, 174);
+    box-shadow: 0 4px 8px rgb(177, 7, 7);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: url(../citrouille.jpg);
+}
+
+.bod{
+    background-color: black;
+}
+
+.hallo {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: aquamarine;
+    flex: 1;
+    border: 1px solid black;
+    padding: 10px;
+    background: url(../citrouille.jpg) no-repeat center / cover;
+  }
+
+
